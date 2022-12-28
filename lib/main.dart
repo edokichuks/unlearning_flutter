@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Unlearning Flutter',
+      themeMode: ThemeMode.light,
+      darkTheme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         
         primarySwatch: Colors.blueGrey,
