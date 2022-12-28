@@ -4,7 +4,7 @@ import 'package:unlearning_flutter/user_details.dart';
 class MockAPIServices {
   static Future<List<UserDetails>> getUser(
       {bool shouldThrowException = false}) async {
-    await Future.delayed(const Duration(seconds: 12));
+    await Future.delayed(const Duration(seconds: 8));
 
     if (shouldThrowException) {
       throw ChuksException(
